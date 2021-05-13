@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Systolic_Processor_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Systolic_Processor_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="485833fs"></ZoomStartTime>
+      <ZoomEndTime time="634834fs"></ZoomEndTime>
+      <Cursor1Time time="555000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="318"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="47" />
+   <wvobject fp_name="divider429" type="divider">
+      <obj_property name="label">Systolic_Processor</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group266">
+      <obj_property name="label">input</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/reset">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/clear">
+         <obj_property name="ElementShortName">clear</obj_property>
+         <obj_property name="ObjectShortName">clear</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/start">
+         <obj_property name="ElementShortName">start</obj_property>
+         <obj_property name="ObjectShortName">start</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/operand1">
+         <obj_property name="ElementShortName">operand1[15:0]</obj_property>
+         <obj_property name="ObjectShortName">operand1[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/operand2">
+         <obj_property name="ElementShortName">operand2[15:0]</obj_property>
+         <obj_property name="ObjectShortName">operand2[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/previous_StageOperand">
+         <obj_property name="ElementShortName">previous_StageOperand[15:0]</obj_property>
+         <obj_property name="ObjectShortName">previous_StageOperand[15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group265">
+      <obj_property name="label"> output</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/result">
+         <obj_property name="ElementShortName">result[15:0]</obj_property>
+         <obj_property name="ObjectShortName">result[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#D2691E</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/next_row_operand">
+         <obj_property name="ElementShortName">next_row_operand[15:0]</obj_property>
+         <obj_property name="ObjectShortName">next_row_operand[15:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p0/tp0/done">
+         <obj_property name="ElementShortName">done</obj_property>
+         <obj_property name="ObjectShortName">done</obj_property>
+         <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/delayed_done">
+         <obj_property name="ElementShortName">delayed_done</obj_property>
+         <obj_property name="ObjectShortName">delayed_done</obj_property>
+         <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider430" type="divider">
+      <obj_property name="label">ProcessingElement_CONTROLLER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group431">
+      <obj_property name="label">INPUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p1/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p1/clr">
+         <obj_property name="ElementShortName">clr</obj_property>
+         <obj_property name="ObjectShortName">clr</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p1/rst">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p1/start">
+         <obj_property name="ElementShortName">start</obj_property>
+         <obj_property name="ObjectShortName">start</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group441">
+      <obj_property name="label">OUTPUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p1/act_BOOTH">
+         <obj_property name="ElementShortName">act_BOOTH</obj_property>
+         <obj_property name="ObjectShortName">act_BOOTH</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p1/clr_in_exp_PIPO">
+         <obj_property name="ElementShortName">clr_in_exp_PIPO</obj_property>
+         <obj_property name="ObjectShortName">clr_in_exp_PIPO</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p1/load_in_exp_PIPO">
+         <obj_property name="ElementShortName">load_in_exp_PIPO</obj_property>
+         <obj_property name="ObjectShortName">load_in_exp_PIPO</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p1/clr_result_PIPO">
+         <obj_property name="ElementShortName">clr_result_PIPO</obj_property>
+         <obj_property name="ObjectShortName">clr_result_PIPO</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p1/clr_status_reg">
+         <obj_property name="ElementShortName">clr_status_reg</obj_property>
+         <obj_property name="ObjectShortName">clr_status_reg</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group442">
+      <obj_property name="label">STATES</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p1/pr_state">
+         <obj_property name="ElementShortName">pr_state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">pr_state[1:0]</obj_property>
+         <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p1/nxt_state">
+         <obj_property name="ElementShortName">nxt_state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">nxt_state[1:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider443" type="divider">
+      <obj_property name="label">ProcessingElement_DATAPATH</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group444">
+      <obj_property name="label">INPUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p0/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/in1">
+         <obj_property name="ElementShortName">in1[15:0]</obj_property>
+         <obj_property name="ObjectShortName">in1[15:0]</obj_property>
+         <obj_property name="CustomSignalColor">#D2691E</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/in2">
+         <obj_property name="ElementShortName">in2[15:0]</obj_property>
+         <obj_property name="ObjectShortName">in2[15:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/previous_StageOperand">
+         <obj_property name="ElementShortName">previous_StageOperand[15:0]</obj_property>
+         <obj_property name="ObjectShortName">previous_StageOperand[15:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p0/act_BOOTH">
+         <obj_property name="ElementShortName">act_BOOTH</obj_property>
+         <obj_property name="ObjectShortName">act_BOOTH</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p0/load_in_exp_PIPO">
+         <obj_property name="ElementShortName">load_in_exp_PIPO</obj_property>
+         <obj_property name="ObjectShortName">load_in_exp_PIPO</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p0/clr_in_exp_PIPO">
+         <obj_property name="ElementShortName">clr_in_exp_PIPO</obj_property>
+         <obj_property name="ObjectShortName">clr_in_exp_PIPO</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p0/clr_result_PIPO">
+         <obj_property name="ElementShortName">clr_result_PIPO</obj_property>
+         <obj_property name="ObjectShortName">clr_result_PIPO</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p0/clr_status_reg">
+         <obj_property name="ElementShortName">clr_status_reg</obj_property>
+         <obj_property name="ObjectShortName">clr_status_reg</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group453">
+      <obj_property name="label">OUTPUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/result">
+         <obj_property name="ElementShortName">result[15:0]</obj_property>
+         <obj_property name="ObjectShortName">result[15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/next_row_operand">
+         <obj_property name="ElementShortName">next_row_operand[15:0]</obj_property>
+         <obj_property name="ObjectShortName">next_row_operand[15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider454" type="divider">
+      <obj_property name="label">BOOTH_MULTIPLIER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group455">
+      <obj_property name="label">INPUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p0/tp0/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p0/tp0/start">
+         <obj_property name="ElementShortName">start</obj_property>
+         <obj_property name="ObjectShortName">start</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/tp0/data_in1">
+         <obj_property name="ElementShortName">data_in1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in1[7:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/tp0/data_in2">
+         <obj_property name="ElementShortName">data_in2[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in2[7:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group461">
+      <obj_property name="label">OUTPUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p0/tp0/done">
+         <obj_property name="ElementShortName">done</obj_property>
+         <obj_property name="ObjectShortName">done</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/tp0/MUL_result">
+         <obj_property name="ElementShortName">MUL_result[15:0]</obj_property>
+         <obj_property name="ObjectShortName">MUL_result[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider275" type="divider">
+      <obj_property name="label">rounding logic for BOOTH multiplier</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group276">
+      <obj_property name="label">input</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/ru0/in">
+         <obj_property name="ElementShortName">in[15:0]</obj_property>
+         <obj_property name="ObjectShortName">in[15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group279">
+      <obj_property name="label">output</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/ru0/out">
+         <obj_property name="ElementShortName">out[6:0]</obj_property>
+         <obj_property name="ObjectShortName">out[6:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider129" type="divider">
+      <obj_property name="label">reg for exponent and sign bits</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group280">
+      <obj_property name="label">input</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p0/i0/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p0/i0/clr">
+         <obj_property name="ElementShortName">clr</obj_property>
+         <obj_property name="ObjectShortName">clr</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p0/i0/load">
+         <obj_property name="ElementShortName">load</obj_property>
+         <obj_property name="ObjectShortName">load</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/i0/in_exp1">
+         <obj_property name="ElementShortName">in_exp1[8:0]</obj_property>
+         <obj_property name="ObjectShortName">in_exp1[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/i0/in_exp2">
+         <obj_property name="ElementShortName">in_exp2[8:0]</obj_property>
+         <obj_property name="ObjectShortName">in_exp2[8:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group286">
+      <obj_property name="label">output</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/i0/out_exp1">
+         <obj_property name="ElementShortName">out_exp1[8:0]</obj_property>
+         <obj_property name="ObjectShortName">out_exp1[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p0/i0/out_sign1">
+         <obj_property name="ElementShortName">out_sign1</obj_property>
+         <obj_property name="ObjectShortName">out_sign1</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/i0/out_exp2">
+         <obj_property name="ElementShortName">out_exp2[8:0]</obj_property>
+         <obj_property name="ObjectShortName">out_exp2[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p0/i0/out_sign2">
+         <obj_property name="ElementShortName">out_sign2</obj_property>
+         <obj_property name="ObjectShortName">out_sign2</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider291" type="divider">
+      <obj_property name="label">sign unit</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group292">
+      <obj_property name="label">input</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p0/su0/sign1">
+         <obj_property name="ElementShortName">sign1</obj_property>
+         <obj_property name="ObjectShortName">sign1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p0/su0/sign2">
+         <obj_property name="ElementShortName">sign2</obj_property>
+         <obj_property name="ObjectShortName">sign2</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group293">
+      <obj_property name="label">output</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p0/su0/sign">
+         <obj_property name="ElementShortName">sign</obj_property>
+         <obj_property name="ObjectShortName">sign</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider297" type="divider">
+      <obj_property name="label">exponent addition unit</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group298">
+      <obj_property name="label">input </obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p0/re0/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p0/re0/clr">
+         <obj_property name="ElementShortName">clr</obj_property>
+         <obj_property name="ObjectShortName">clr</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/re0/in1">
+         <obj_property name="ElementShortName">in1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">in1[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/re0/in2">
+         <obj_property name="ElementShortName">in2[7:0]</obj_property>
+         <obj_property name="ObjectShortName">in2[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group299">
+      <obj_property name="label">output</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/re0/result">
+         <obj_property name="ElementShortName">result[7:0]</obj_property>
+         <obj_property name="ObjectShortName">result[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p0/re0/overflow_status">
+         <obj_property name="ElementShortName">overflow_status</obj_property>
+         <obj_property name="ObjectShortName">overflow_status</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p0/re0/underflow_status">
+         <obj_property name="ElementShortName">underflow_status</obj_property>
+         <obj_property name="ObjectShortName">underflow_status</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group307">
+      <obj_property name="label">internal wires </obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p0/re0/carry_from_first_adder">
+         <obj_property name="ElementShortName">carry_from_first_adder</obj_property>
+         <obj_property name="ObjectShortName">carry_from_first_adder</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/re0/biascomp">
+         <obj_property name="ElementShortName">biascomp[7:0]</obj_property>
+         <obj_property name="ObjectShortName">biascomp[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/re0/exp_add">
+         <obj_property name="ElementShortName">exp_add[7:0]</obj_property>
+         <obj_property name="ObjectShortName">exp_add[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/re0/temp_result">
+         <obj_property name="ElementShortName">temp_result[7:0]</obj_property>
+         <obj_property name="ObjectShortName">temp_result[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider312" type="divider">
+      <obj_property name="label">expadd to result reg- mux unit in between</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group313">
+      <obj_property name="label">input</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p0/em0/underflow">
+         <obj_property name="ElementShortName">underflow</obj_property>
+         <obj_property name="ObjectShortName">underflow</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p0/em0/overflow">
+         <obj_property name="ElementShortName">overflow</obj_property>
+         <obj_property name="ObjectShortName">overflow</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/em0/in_result">
+         <obj_property name="ElementShortName">in_result[7:0]</obj_property>
+         <obj_property name="ObjectShortName">in_result[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group318">
+      <obj_property name="label">output</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/em0/mux_out">
+         <obj_property name="ElementShortName">mux_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">mux_out[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider319" type="divider">
+      <obj_property name="label">result register</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group320">
+      <obj_property name="label">input</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p0/rp0/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p0/rp0/en">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+         <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p0/rp0/clr">
+         <obj_property name="ElementShortName">clr</obj_property>
+         <obj_property name="ObjectShortName">clr</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/rp0/data_in">
+         <obj_property name="ElementShortName">data_in[15:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group321">
+      <obj_property name="label">output</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/rp0/data_out">
+         <obj_property name="ElementShortName">data_out[15:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider510" type="divider">
+      <obj_property name="label">PIPO to transfer operand2 to next row</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group511">
+      <obj_property name="label">input</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p0/po0/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p0/po0/en">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p0/po0/clr">
+         <obj_property name="ElementShortName">clr</obj_property>
+         <obj_property name="ObjectShortName">clr</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/po0/in">
+         <obj_property name="ElementShortName">in[15:0]</obj_property>
+         <obj_property name="ObjectShortName">in[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group512">
+      <obj_property name="label">output</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/po0/out">
+         <obj_property name="ElementShortName">out[15:0]</obj_property>
+         <obj_property name="ObjectShortName">out[15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider196" type="divider">
+      <obj_property name="label">addition unit for final addition of missing terms</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group197">
+      <obj_property name="label">input</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/au0/mantissa1">
+         <obj_property name="ElementShortName">mantissa1[6:0]</obj_property>
+         <obj_property name="ObjectShortName">mantissa1[6:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/au0/mantissa2">
+         <obj_property name="ElementShortName">mantissa2[6:0]</obj_property>
+         <obj_property name="ObjectShortName">mantissa2[6:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/au0/round_unit_result">
+         <obj_property name="ElementShortName">round_unit_result[6:0]</obj_property>
+         <obj_property name="ObjectShortName">round_unit_result[6:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group202">
+      <obj_property name="label">output</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/au0/addition_result">
+         <obj_property name="ElementShortName">addition_result[8:0]</obj_property>
+         <obj_property name="ObjectShortName">addition_result[8:0]</obj_property>
+         <obj_property name="CustomSignalColor">#0000FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider204" type="divider">
+      <obj_property name="label">accumulator unit</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group205">
+      <obj_property name="label">input</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p0/accu0/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p0/accu0/clr">
+         <obj_property name="ElementShortName">clr</obj_property>
+         <obj_property name="ObjectShortName">clr</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/accu0/previousOperand">
+         <obj_property name="ElementShortName">previousOperand[15:0]</obj_property>
+         <obj_property name="ObjectShortName">previousOperand[15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/accu0/addition_unit_result">
+         <obj_property name="ElementShortName">addition_unit_result[8:0]</obj_property>
+         <obj_property name="ObjectShortName">addition_unit_result[8:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/accu0/result_reg_pipo">
+         <obj_property name="ElementShortName">result_reg_pipo[8:0]</obj_property>
+         <obj_property name="ObjectShortName">result_reg_pipo[8:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group211">
+      <obj_property name="label">output</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/accu0/processingElementResult">
+         <obj_property name="ElementShortName">processingElementResult[15:0]</obj_property>
+         <obj_property name="ObjectShortName">processingElementResult[15:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider450" type="divider">
+      <obj_property name="label">delay shift register</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group451">
+      <obj_property name="label">input</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p0/dsr0/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p0/dsr0/d">
+         <obj_property name="ElementShortName">d</obj_property>
+         <obj_property name="ObjectShortName">d</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group452">
+      <obj_property name="label">output</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p0/dsr0/q0">
+         <obj_property name="ElementShortName">q0</obj_property>
+         <obj_property name="ObjectShortName">q0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/Systolic_Processor_tb/DUT/p0/dsr0/out">
+         <obj_property name="ElementShortName">out</obj_property>
+         <obj_property name="ObjectShortName">out</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group216">
+      <obj_property name="label">some internal results for verification</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="divider224" type="divider">
+         <obj_property name="label">for verification purpose</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject type="group" fp_name="group217">
+         <obj_property name="label">current operand a11*b11</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/accu0/CNormExponent">
+            <obj_property name="ElementShortName">CNormExponent[7:0]</obj_property>
+            <obj_property name="ObjectShortName">CNormExponent[7:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/accu0/CNormMantissa">
+            <obj_property name="ElementShortName">CNormMantissa[7:0]</obj_property>
+            <obj_property name="ObjectShortName">CNormMantissa[7:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group218">
+         <obj_property name="label">previous operand a00*b00</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/accu0/previousOperand">
+            <obj_property name="ElementShortName">previousOperand[15:0]</obj_property>
+            <obj_property name="ObjectShortName">previousOperand[15:0]</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/accu0/tempaddrslt">
+      <obj_property name="ElementShortName">tempaddrslt[8:0]</obj_property>
+      <obj_property name="ObjectShortName">tempaddrslt[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group223">
+      <obj_property name="label">various registers</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/accu0/LNormExponent">
+         <obj_property name="ElementShortName">LNormExponent[7:0]</obj_property>
+         <obj_property name="ObjectShortName">LNormExponent[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/accu0/LNormMantissa">
+         <obj_property name="ElementShortName">LNormMantissa[7:0]</obj_property>
+         <obj_property name="ObjectShortName">LNormMantissa[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/accu0/CNormExponent">
+         <obj_property name="ElementShortName">CNormExponent[7:0]</obj_property>
+         <obj_property name="ObjectShortName">CNormExponent[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Systolic_Processor_tb/DUT/p0/accu0/CNormMantissa">
+         <obj_property name="ElementShortName">CNormMantissa[7:0]</obj_property>
+         <obj_property name="ObjectShortName">CNormMantissa[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
