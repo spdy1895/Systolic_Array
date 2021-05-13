@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_BOOTH_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_BOOTH_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="240001fs"></ZoomEndTime>
+      <Cursor1Time time="40081fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="220"></NameColumnWidth>
+      <ValueColumnWidth column_width="175"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="divider13" type="divider">
+      <obj_property name="label">top_BOOTH_module</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group14">
+      <obj_property name="label">input</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/top_BOOTH_tb/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top_BOOTH_tb/start">
+         <obj_property name="ElementShortName">start</obj_property>
+         <obj_property name="ObjectShortName">start</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_BOOTH_tb/data_in1">
+         <obj_property name="ElementShortName">data_in1[6:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in1[6:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_BOOTH_tb/data_in2">
+         <obj_property name="ElementShortName">data_in2[6:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in2[6:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group15">
+      <obj_property name="label">output</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/top_BOOTH_tb/done">
+         <obj_property name="ElementShortName">done</obj_property>
+         <obj_property name="ObjectShortName">done</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_BOOTH_tb/MUL_result">
+         <obj_property name="ElementShortName">MUL_result[6:0]</obj_property>
+         <obj_property name="ObjectShortName">MUL_result[6:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider23" type="divider">
+      <obj_property name="label">controller_BOOTH</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group53">
+      <obj_property name="label">input</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/CTRL/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/CTRL/q0">
+         <obj_property name="ElementShortName">q0</obj_property>
+         <obj_property name="ObjectShortName">q0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/CTRL/qm1">
+         <obj_property name="ElementShortName">qm1</obj_property>
+         <obj_property name="ObjectShortName">qm1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/CTRL/start">
+         <obj_property name="ElementShortName">start</obj_property>
+         <obj_property name="ObjectShortName">start</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/CTRL/eqz">
+         <obj_property name="ElementShortName">eqz</obj_property>
+         <obj_property name="ObjectShortName">eqz</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group54">
+      <obj_property name="label">output</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="group" fp_name="group55">
+         <obj_property name="label">partial-product</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/CTRL/LdA">
+            <obj_property name="ElementShortName">LdA</obj_property>
+            <obj_property name="ObjectShortName">LdA</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/CTRL/clrA">
+            <obj_property name="ElementShortName">clrA</obj_property>
+            <obj_property name="ObjectShortName">clrA</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/CTRL/sftA">
+            <obj_property name="ElementShortName">sftA</obj_property>
+            <obj_property name="ObjectShortName">sftA</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group56">
+         <obj_property name="label">multiplier</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/CTRL/LdQ">
+            <obj_property name="ElementShortName">LdQ</obj_property>
+            <obj_property name="ObjectShortName">LdQ</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/CTRL/clrQ">
+            <obj_property name="ElementShortName">clrQ</obj_property>
+            <obj_property name="ObjectShortName">clrQ</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/CTRL/sftQ">
+            <obj_property name="ElementShortName">sftQ</obj_property>
+            <obj_property name="ObjectShortName">sftQ</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group57">
+         <obj_property name="label">dff</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/CTRL/sftDff">
+            <obj_property name="ElementShortName">sftDff</obj_property>
+            <obj_property name="ObjectShortName">sftDff</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/CTRL/clrff">
+            <obj_property name="ElementShortName">clrff</obj_property>
+            <obj_property name="ObjectShortName">clrff</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group58">
+         <obj_property name="label">multiplicand</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/CTRL/LdM">
+            <obj_property name="ElementShortName">LdM</obj_property>
+            <obj_property name="ObjectShortName">LdM</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/CTRL/clrM">
+            <obj_property name="ElementShortName">clrM</obj_property>
+            <obj_property name="ObjectShortName">clrM</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group59">
+         <obj_property name="label">alu</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/CTRL/add_sub">
+            <obj_property name="ElementShortName">add_sub</obj_property>
+            <obj_property name="ObjectShortName">add_sub</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/CTRL/EnableALU">
+            <obj_property name="ElementShortName">EnableALU</obj_property>
+            <obj_property name="ObjectShortName">EnableALU</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group60">
+         <obj_property name="label">counter</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/CTRL/decr">
+            <obj_property name="ElementShortName">decr</obj_property>
+            <obj_property name="ObjectShortName">decr</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/CTRL/LdCount">
+            <obj_property name="ElementShortName">LdCount</obj_property>
+            <obj_property name="ObjectShortName">LdCount</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/CTRL/done">
+         <obj_property name="ElementShortName">done</obj_property>
+         <obj_property name="ObjectShortName">done</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_BOOTH_tb/t0/CTRL/state">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+      <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider67" type="divider">
+      <obj_property name="label">controller_DATAPATH</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group68">
+      <obj_property name="label">partial-product</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/DAT/REG_A/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/DAT/REG_A/Ld">
+         <obj_property name="ElementShortName">Ld</obj_property>
+         <obj_property name="ObjectShortName">Ld</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/DAT/REG_A/clr">
+         <obj_property name="ElementShortName">clr</obj_property>
+         <obj_property name="ObjectShortName">clr</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/DAT/REG_A/sft">
+         <obj_property name="ElementShortName">sft</obj_property>
+         <obj_property name="ObjectShortName">sft</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_BOOTH_tb/t0/DAT/REG_A/data_in">
+         <obj_property name="ElementShortName">data_in[6:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[6:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_BOOTH_tb/t0/DAT/REG_A/data_out">
+         <obj_property name="ElementShortName">data_out[6:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[6:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group75">
+      <obj_property name="label">multiplier</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/DAT/REG_Q/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/DAT/REG_Q/Ld">
+         <obj_property name="ElementShortName">Ld</obj_property>
+         <obj_property name="ObjectShortName">Ld</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/DAT/REG_Q/clr">
+         <obj_property name="ElementShortName">clr</obj_property>
+         <obj_property name="ObjectShortName">clr</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/DAT/REG_Q/sft">
+         <obj_property name="ElementShortName">sft</obj_property>
+         <obj_property name="ObjectShortName">sft</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/DAT/REG_Q/s_in">
+         <obj_property name="ElementShortName">s_in</obj_property>
+         <obj_property name="ObjectShortName">s_in</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_BOOTH_tb/t0/DAT/REG_Q/data_in2">
+         <obj_property name="ElementShortName">data_in2[6:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in2[6:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_BOOTH_tb/t0/DAT/REG_Q/LdCountValue">
+         <obj_property name="ElementShortName">LdCountValue[2:0]</obj_property>
+         <obj_property name="ObjectShortName">LdCountValue[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_BOOTH_tb/t0/DAT/REG_Q/data_out">
+         <obj_property name="ElementShortName">data_out[6:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[6:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group84">
+      <obj_property name="label">dff</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/DAT/QM1/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/DAT/QM1/clr">
+         <obj_property name="ElementShortName">clr</obj_property>
+         <obj_property name="ObjectShortName">clr</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/DAT/QM1/sft">
+         <obj_property name="ElementShortName">sft</obj_property>
+         <obj_property name="ObjectShortName">sft</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/DAT/QM1/d">
+         <obj_property name="ElementShortName">d</obj_property>
+         <obj_property name="ObjectShortName">d</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/DAT/QM1/q">
+         <obj_property name="ElementShortName">q</obj_property>
+         <obj_property name="ObjectShortName">q</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group90">
+      <obj_property name="label">multiplicand</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/DAT/REG_M/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/DAT/REG_M/load">
+         <obj_property name="ElementShortName">load</obj_property>
+         <obj_property name="ObjectShortName">load</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/DAT/REG_M/clear">
+         <obj_property name="ElementShortName">clear</obj_property>
+         <obj_property name="ObjectShortName">clear</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_BOOTH_tb/t0/DAT/REG_M/data_in1">
+         <obj_property name="ElementShortName">data_in1[6:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in1[6:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_BOOTH_tb/t0/DAT/REG_M/data_out">
+         <obj_property name="ElementShortName">data_out[6:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[6:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group96">
+      <obj_property name="label">alu</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/DAT/AL/EnableALU">
+         <obj_property name="ElementShortName">EnableALU</obj_property>
+         <obj_property name="ObjectShortName">EnableALU</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/DAT/AL/add_sub">
+         <obj_property name="ElementShortName">add_sub</obj_property>
+         <obj_property name="ObjectShortName">add_sub</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_BOOTH_tb/t0/DAT/AL/data_in1">
+         <obj_property name="ElementShortName">data_in1[4:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in1[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_BOOTH_tb/t0/DAT/AL/data_in2">
+         <obj_property name="ElementShortName">data_in2[4:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in2[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_BOOTH_tb/t0/DAT/AL/out">
+         <obj_property name="ElementShortName">out[4:0]</obj_property>
+         <obj_property name="ObjectShortName">out[4:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group102">
+      <obj_property name="label">counter</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/DAT/CN/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/DAT/CN/Ld">
+         <obj_property name="ElementShortName">Ld</obj_property>
+         <obj_property name="ObjectShortName">Ld</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top_BOOTH_tb/t0/DAT/CN/decr">
+         <obj_property name="ElementShortName">decr</obj_property>
+         <obj_property name="ObjectShortName">decr</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_BOOTH_tb/t0/DAT/CN/LdCountValue">
+         <obj_property name="ElementShortName">LdCountValue[2:0]</obj_property>
+         <obj_property name="ObjectShortName">LdCountValue[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_BOOTH_tb/t0/DAT/CN/data_out">
+         <obj_property name="ElementShortName">data_out[2:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[2:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

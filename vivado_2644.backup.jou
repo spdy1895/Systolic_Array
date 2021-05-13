@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Feb  6 18:00:43 2021
+# Process ID: 2644
+# Current directory: /home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array
+# Command line: vivado Systolic_Array.xpr
+# Log file: /home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/vivado.log
+# Journal file: /home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project Systolic_Array.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config /home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/top_BOOTH_tb_behav1.wcfg
+open_wave_config /home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/roundunit_tb_behav.wcfg
+open_wave_config /home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Processor_tb.wcfg
+source Systolic_Processor_tb.tcl
+run 5000 ns
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_project

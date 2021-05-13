@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Mar 24 16:46:20 2021
+# Process ID: 19427
+# Current directory: /home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.sim/sim_1/behav/xsim
+# Command line: wbtcv -mode batch -source /home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.sim/sim_1/behav/xsim/xsim.dir/Systolic_Processor_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: /home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.sim/sim_1/behav/xsim/webtalk.jou
+#-----------------------------------------------------------
+source /home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.sim/sim_1/behav/xsim/xsim.dir/Systolic_Processor_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00.80 ; elapsed = 00:00:11 . Memory (MB): peak = 417.520 ; gain = 0.141 ; free physical = 4311 ; free virtual = 10616
+INFO: [Common 17-206] Exiting Webtalk at Wed Mar 24 16:46:30 2021...

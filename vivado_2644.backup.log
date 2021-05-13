@@ -1,0 +1,322 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Feb  6 18:00:43 2021
+# Process ID: 2644
+# Current directory: /home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array
+# Command line: vivado Systolic_Array.xpr
+# Log file: /home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/vivado.log
+# Journal file: /home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project Systolic_Array.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/carryskipadd_tb_behav.wcfg'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:07 . Memory (MB): peak = 7293.828 ; gain = 60.336 ; free physical = 6697 ; free virtual = 11309
+update_compile_order -fileset sources_1
+INFO: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Systolic_Processor_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj Systolic_Processor_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/COUNTER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module COUNTER
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/DFF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFF
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/IN_EXP_PIPO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IN_EXP_PIPO
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/PIPO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PIPO
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/ProcessingElement_CONTROLLER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ProcessingElement_CONTROLLER
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/ProcessingElement_DATAPATH.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ProcessingElement_DATAPATH
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/RESULT_PIPO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RESULT_PIPO
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/RoundExp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RoundExp
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/SHIFTREG1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SHIFTREG1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/SHIFTREG2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SHIFTREG2
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/Systolic_Processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Systolic_Processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/carryskipadd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module carryskipadd
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/controller_BOOTH.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller_BOOTH
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/datapath_BOOTH.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath_BOOTH
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/fulladd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fulladd
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/roundunit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module roundunit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/selunit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module selunit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/sign_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/top_BOOTH.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_BOOTH
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sim_1/new/Systolic_Processor_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Systolic_Processor_tb
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.sim/sim_1/behav/xsim'
+xelab -wto 888e7af2256e47da8ca96fb35cbd6188 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Systolic_Processor_tb_behav xil_defaultlib.Systolic_Processor_tb xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2020.2/bin/unwrapped/lnx64.o/xelab -wto 888e7af2256e47da8ca96fb35cbd6188 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Systolic_Processor_tb_behav xil_defaultlib.Systolic_Processor_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 14 differs from formal bit length 16 for port 'MUL_result' [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/ProcessingElement_DATAPATH.v:85]
+WARNING: [VRFC 10-3091] actual bit length 14 differs from formal bit length 16 for port 'in' [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/ProcessingElement_DATAPATH.v:104]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 9 for port 'out_exp1' [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/ProcessingElement_DATAPATH.v:111]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 9 for port 'out_exp2' [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/ProcessingElement_DATAPATH.v:112]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.SHIFTREG1
+Compiling module xil_defaultlib.SHIFTREG2
+Compiling module xil_defaultlib.DFF
+Compiling module xil_defaultlib.PIPO
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.COUNTER
+Compiling module xil_defaultlib.datapath_BOOTH
+Compiling module xil_defaultlib.controller_BOOTH
+Compiling module xil_defaultlib.top_BOOTH
+Compiling module xil_defaultlib.roundunit
+Compiling module xil_defaultlib.IN_EXP_PIPO
+Compiling module xil_defaultlib.fulladd
+Compiling module xil_defaultlib.selunit
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.carryskipadd_default
+Compiling module xil_defaultlib.RoundExp
+Compiling module xil_defaultlib.sign_unit
+Compiling module xil_defaultlib.RESULT_PIPO
+Compiling module xil_defaultlib.ProcessingElement_DATAPATH
+Compiling module xil_defaultlib.ProcessingElement_CONTROLLER
+Compiling module xil_defaultlib.Systolic_Processor
+Compiling module xil_defaultlib.Systolic_Processor_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Systolic_Processor_tb_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source /home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.sim/sim_1/behav/xsim/xsim.dir/Systolic_Processor_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00.90 ; elapsed = 00:00:11 . Memory (MB): peak = 439.664 ; gain = 0.133 ; free physical = 6380 ; free virtual = 11101
+INFO: [Common 17-206] Exiting Webtalk at Sat Feb  6 18:04:20 2021...
+run_program: Time (s): cpu = 00:00:06 ; elapsed = 00:00:15 . Memory (MB): peak = 7352.988 ; gain = 0.000 ; free physical = 6446 ; free virtual = 11167
+INFO: [USF-XSim-69] 'elaborate' step finished in '14' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+WARNING: [USF-XSim-17] WCFG file does not exist:/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/carryskipadd_tb_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/carryskipadd_tb_behav.wcfg
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Systolic_Processor_tb_behav -key {Behavioral:sim_1:Functional:Systolic_Processor_tb} -tclbatch {Systolic_Processor_tb.tcl} -view {/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/top_BOOTH_tb_behav1.wcfg} -view {/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/roundunit_tb_behav.wcfg} -view {/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Processor_tb.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+open_wave_config /home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/top_BOOTH_tb_behav1.wcfg
+WARNING: Simulation object /top_BOOTH_tb/clk was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/start was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/data_in1 was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/data_in2 was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/MUL_result was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/done was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/CTRL/LdA was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/CTRL/clrA was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/CTRL/sftA was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/CTRL/LdQ was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/CTRL/clrQ was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/CTRL/sftQ was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/CTRL/clrff was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/CTRL/sftDff was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/CTRL/LdM was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/CTRL/clrM was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/CTRL/add_sub was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/CTRL/EnableALU was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/CTRL/decr was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/CTRL/LdCount was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/CTRL/done was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/CTRL/clk was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/CTRL/q0 was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/CTRL/qm1 was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/CTRL/start was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/CTRL/eqz was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/CTRL/state was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/DAT/q0 was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/DAT/qm1 was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/DAT/eqz was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/DAT/data_out was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/DAT/clk was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/DAT/LdA was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/DAT/clrA was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/DAT/sftA was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/DAT/REG_A/s_in was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/DAT/REG_A/data_in was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/DAT/REG_A/data_out was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/DAT/REG_Q/clk was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/DAT/REG_Q/Ld was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/DAT/REG_Q/clr was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/DAT/REG_Q/sft was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/DAT/REG_Q/s_in was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/DAT/REG_Q/LdCountValue was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/DAT/REG_Q/data_in2 was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/DAT/REG_Q/data_out was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/DAT/QM1/clk was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/DAT/QM1/clr was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/DAT/QM1/sft was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/DAT/QM1/d was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/DAT/QM1/q was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/DAT/REG_M/clk was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/DAT/REG_M/load was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/DAT/REG_M/clear was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/DAT/REG_M/data_in1 was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/DAT/REG_M/data_out was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/DAT/AL/EnableALU was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/DAT/AL/add_sub was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/DAT/AL/data_in1 was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/DAT/AL/data_in2 was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/DAT/AL/out was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/DAT/CN/clk was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/DAT/CN/Ld was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/DAT/CN/decr was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/DAT/CN/LdCountValue was not found in the design.
+WARNING: Simulation object /top_BOOTH_tb/t0/DAT/CN/data_out was not found in the design.
+open_wave_config /home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/roundunit_tb_behav.wcfg
+open_wave_config /home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Processor_tb.wcfg
+source Systolic_Processor_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Systolic_Processor_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 7423.660 ; gain = 70.672 ; free physical = 6385 ; free virtual = 11109
+run 5000 ns
+$finish called at time : 1230 ns : File "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sim_1/new/Systolic_Processor_tb.v" Line 75
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7s100fgga676-2
+Top: Systolic_Processor
+INFO: [Device 21-403] Loading part xc7s100fgga676-2
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 7423.660 ; gain = 0.000 ; free physical = 5869 ; free virtual = 10623
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Systolic_Processor' [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/Systolic_Processor.v:24]
+INFO: [Synth 8-6157] synthesizing module 'ProcessingElement_DATAPATH' [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/ProcessingElement_DATAPATH.v:24]
+INFO: [Synth 8-6157] synthesizing module 'top_BOOTH' [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/top_BOOTH.v:23]
+INFO: [Synth 8-6157] synthesizing module 'datapath_BOOTH' [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/datapath_BOOTH.v:29]
+INFO: [Synth 8-6157] synthesizing module 'SHIFTREG1' [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/SHIFTREG1.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'SHIFTREG1' (1#1) [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/SHIFTREG1.v:24]
+INFO: [Synth 8-6157] synthesizing module 'SHIFTREG2' [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/SHIFTREG2.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'SHIFTREG2' (2#1) [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/SHIFTREG2.v:24]
+INFO: [Synth 8-6157] synthesizing module 'DFF' [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/DFF.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'DFF' (3#1) [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/DFF.v:23]
+INFO: [Synth 8-6157] synthesizing module 'PIPO' [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/PIPO.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'PIPO' (4#1) [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/PIPO.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/ALU.v:23]
+WARNING: [Synth 8-567] referenced signal 'add_sub' should be on the sensitivity list [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/ALU.v:30]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (5#1) [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'COUNTER' [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/COUNTER.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'COUNTER' (6#1) [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/COUNTER.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'datapath_BOOTH' (7#1) [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/datapath_BOOTH.v:29]
+INFO: [Synth 8-6157] synthesizing module 'controller_BOOTH' [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/controller_BOOTH.v:23]
+	Parameter idle bound to: 4'b1100 
+	Parameter clear bound to: 4'b1110 
+	Parameter load bound to: 4'b1010 
+	Parameter dummy bound to: 4'b1000 
+	Parameter check bound to: 4'b1001 
+	Parameter shift bound to: 4'b0000 
+	Parameter add bound to: 4'b0001 
+	Parameter sub bound to: 4'b0010 
+	Parameter done_state bound to: 4'b0100 
+INFO: [Synth 8-6155] done synthesizing module 'controller_BOOTH' (8#1) [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/controller_BOOTH.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'top_BOOTH' (9#1) [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/top_BOOTH.v:23]
+WARNING: [Synth 8-689] width (14) of port connection 'MUL_result' does not match port width (16) of module 'top_BOOTH' [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/ProcessingElement_DATAPATH.v:85]
+INFO: [Synth 8-6157] synthesizing module 'roundunit' [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/roundunit.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'roundunit' (10#1) [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/roundunit.v:25]
+INFO: [Synth 8-6157] synthesizing module 'IN_EXP_PIPO' [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/IN_EXP_PIPO.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'IN_EXP_PIPO' (11#1) [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/IN_EXP_PIPO.v:25]
+WARNING: [Synth 8-689] width (8) of port connection 'out_exp1' does not match port width (9) of module 'IN_EXP_PIPO' [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/ProcessingElement_DATAPATH.v:111]
+WARNING: [Synth 8-689] width (8) of port connection 'out_exp2' does not match port width (9) of module 'IN_EXP_PIPO' [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/ProcessingElement_DATAPATH.v:112]
+INFO: [Synth 8-6157] synthesizing module 'RoundExp' [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/RoundExp.v:24]
+INFO: [Synth 8-6157] synthesizing module 'carryskipadd' [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/carryskipadd.v:24]
+INFO: [Synth 8-6157] synthesizing module 'fulladd' [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/fulladd.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'fulladd' (12#1) [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/fulladd.v:23]
+INFO: [Synth 8-6157] synthesizing module 'selunit' [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/selunit.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'selunit' (13#1) [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/selunit.v:24]
+INFO: [Synth 8-6157] synthesizing module 'mux' [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/mux.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'mux' (14#1) [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/mux.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'carryskipadd' (15#1) [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/carryskipadd.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'RoundExp' (16#1) [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/RoundExp.v:24]
+INFO: [Synth 8-6157] synthesizing module 'sign_unit' [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/sign_unit.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'sign_unit' (17#1) [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/sign_unit.v:24]
+INFO: [Synth 8-6157] synthesizing module 'RESULT_PIPO' [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/RESULT_PIPO.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'RESULT_PIPO' (18#1) [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/RESULT_PIPO.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'ProcessingElement_DATAPATH' (19#1) [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/ProcessingElement_DATAPATH.v:24]
+INFO: [Synth 8-6157] synthesizing module 'ProcessingElement_CONTROLLER' [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/ProcessingElement_CONTROLLER.v:25]
+	Parameter idle bound to: 2'b00 
+	Parameter clear bound to: 2'b01 
+	Parameter actv bound to: 2'b10 
+INFO: [Synth 8-6155] done synthesizing module 'ProcessingElement_CONTROLLER' (20#1) [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/ProcessingElement_CONTROLLER.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'Systolic_Processor' (21#1) [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/Systolic_Processor.v:24]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 7423.660 ; gain = 0.000 ; free physical = 5899 ; free virtual = 10658
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 7423.660 ; gain = 0.000 ; free physical = 5892 ; free virtual = 10652
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 7423.660 ; gain = 0.000 ; free physical = 5892 ; free virtual = 10652
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 7423.660 ; gain = 0.000 ; free physical = 5885 ; free virtual = 10645
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 7506.680 ; gain = 0.000 ; free physical = 5803 ; free virtual = 10575
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 7608.281 ; gain = 184.621 ; free physical = 5717 ; free virtual = 10494
+45 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:13 . Memory (MB): peak = 7608.281 ; gain = 184.621 ; free physical = 5716 ; free virtual = 10494
+close_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Feb  6 19:56:11 2021...

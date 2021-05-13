@@ -1,0 +1,7 @@
+Running: xsim.dir/Systolic_Processor_tb_behav/xsimk -simmode gui -wdb Systolic_Processor_tb_behav.wdb -simrunnum 0 -socket 42133
+Design successfully loaded
+Design Loading Memory Usage: 44440 KB (Peak: 44440 KB)
+Design Loading CPU Usage: 10 ms
+Simulation completed
+Simulation Memory Usage: 126436 KB (Peak: 183708 KB)
+Simulation CPU Usage: 60 ms

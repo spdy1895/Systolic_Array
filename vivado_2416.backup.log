@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Feb 10 19:09:22 2021
+# Process ID: 2416
+# Current directory: /home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array
+# Command line: vivado Systolic_Array.xpr
+# Log file: /home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/vivado.log
+# Journal file: /home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project Systolic_Array.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/carryskipadd_tb_behav.wcfg'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 7289.777 ; gain = 46.285 ; free physical = 7099 ; free virtual = 11645
+INFO: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Feb 10 19:55:01 2021...

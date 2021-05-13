@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Apr 14 10:37:41 2021
+# Process ID: 9476
+# Current directory: /home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array
+# Command line: vivado Systolic_Array.xpr
+# Log file: /home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/vivado.log
+# Journal file: /home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project Systolic_Array.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2020.2/data/ip'.
+update_compile_order -fileset sources_1
+INFO: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+close_prject
+invalid command name "close_prject"
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 14 10:38:18 2021...

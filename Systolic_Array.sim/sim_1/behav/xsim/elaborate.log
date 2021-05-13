@@ -1,0 +1,41 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2020.2/bin/unwrapped/lnx64.o/xelab -wto 888e7af2256e47da8ca96fb35cbd6188 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Systolic_Processor_tb_behav xil_defaultlib.Systolic_Processor_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 9 for port 'out_exp1' [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/ProcessingElement_DATAPATH.v:139]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 9 for port 'out_exp2' [/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/ProcessingElement_DATAPATH.v:140]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.SHIFTREG1
+Compiling module xil_defaultlib.SHIFTREG2
+Compiling module xil_defaultlib.DFF
+Compiling module xil_defaultlib.PIPO
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.COUNTER
+Compiling module xil_defaultlib.datapath_BOOTH
+Compiling module xil_defaultlib.controller_BOOTH
+Compiling module xil_defaultlib.top_BOOTH
+Compiling module xil_defaultlib.roundunit
+Compiling module xil_defaultlib.IN_EXP_PIPO
+Compiling module xil_defaultlib.fulladd
+Compiling module xil_defaultlib.selunit
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.carryskipadd_default
+Compiling module xil_defaultlib.RoundExp
+Compiling module xil_defaultlib.sign_unit
+Compiling module xil_defaultlib.RESULT_PIPO
+Compiling module xil_defaultlib.expaddtoresult_mux
+Compiling module xil_defaultlib.pipo_OP2
+Compiling module xil_defaultlib.addition_unit
+Compiling module xil_defaultlib.accumulator_unit
+Compiling module xil_defaultlib.delay_sr
+Compiling module xil_defaultlib.ProcessingElement_DATAPATH
+Compiling module xil_defaultlib.ProcessingElement_CONTROLLER
+Compiling module xil_defaultlib.Systolic_Processor
+Compiling module xil_defaultlib.Systolic_Processor_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Systolic_Processor_tb_behav

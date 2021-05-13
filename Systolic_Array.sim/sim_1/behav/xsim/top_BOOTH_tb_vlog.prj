@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Systolic_Array.srcs/sources_1/new/ALU.v" \
+"../../../../Systolic_Array.srcs/sources_1/new/COUNTER.v" \
+"../../../../Systolic_Array.srcs/sources_1/new/DFF.v" \
+"../../../../Systolic_Array.srcs/sources_1/new/PIPO.v" \
+"../../../../Systolic_Array.srcs/sources_1/new/SHIFTREG1.v" \
+"../../../../Systolic_Array.srcs/sources_1/new/SHIFTREG2.v" \
+"../../../../Systolic_Array.srcs/sources_1/new/controller_BOOTH.v" \
+"../../../../Systolic_Array.srcs/sources_1/new/datapath_BOOTH.v" \
+"../../../../Systolic_Array.srcs/sources_1/new/top_BOOTH.v" \
+"../../../../Systolic_Array.srcs/sim_1/new/top_BOOTH_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

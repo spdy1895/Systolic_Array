@@ -1,0 +1,52 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/COUNTER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module COUNTER
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/IN_EXP_PIPO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IN_EXP_PIPO
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/PIPO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PIPO
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/ProcessingElement_CONTROLLER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ProcessingElement_CONTROLLER
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/ProcessingElement_DATAPATH.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ProcessingElement_DATAPATH
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/RESULT_PIPO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RESULT_PIPO
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/RoundExp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RoundExp
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/SHIFTREG1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SHIFTREG1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/SHIFTREG2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SHIFTREG2
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/Systolic_Processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Systolic_Processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/accumulator_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module accumulator_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/addition_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addition_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/carryskipadd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module carryskipadd
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/controller_BOOTH.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller_BOOTH
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/datapath_BOOTH.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath_BOOTH
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/delay_sr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module delay_sr
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/expaddtoresult_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module expaddtoresult_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/fulladd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fulladd
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/pipo_OP2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipo_OP2
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/roundunit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module roundunit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/selunit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module selunit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/sign_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sources_1/new/top_BOOTH.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_BOOTH
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/spdy18695/workbench/CODES/Vivado_projects/Systolic_Array/Systolic_Array.srcs/sim_1/new/Systolic_Processor_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Systolic_Processor_tb

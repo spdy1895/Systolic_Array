@@ -1,0 +1,7 @@
+Running: xsim.dir/carryskipadd_tb_behav/xsimk -simmode gui -wdb carryskipadd_tb_behav.wdb -simrunnum 0 -socket 33263
+Design successfully loaded
+Design Loading Memory Usage: 44156 KB (Peak: 44276 KB)
+Design Loading CPU Usage: 10 ms
+Simulation completed
+Simulation Memory Usage: 125892 KB (Peak: 183424 KB)
+Simulation CPU Usage: 10 ms
